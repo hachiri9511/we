@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:brown ;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPN59-xeW93Ji3NemEpgeu3vVgS977toxEQ&usqp=CAU);
+    background-repeat:no-repeat; /*sirve para que no se repita */
+    background-position-x:center;
+    background-position-y: center;
+    background-size: 100% ;
+    background-attachment:fixed; 
+}
+header{color:brown;
+    background-color:blue ;
+    text-align: center;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfhXYQVt05qf7z4DUp0Nb_kq2mhju1hm5SBA&usqp=CAU) ;    
+}
+
+main{
+    color:aqua ; 
+}
+
+p{
+    text-align:justify;
+    text-decoration:line-through ;   /*solo sirve para linea no para negrita ni cursiva*/
+    letter-spacing:3px;   /*es para separae las letras*/
+    word-spacing:5px ;     /*separa las palabras */
+    text-transform:uppercase;  /*para que sea mayuscula y lovercase para minsucula */
+    line-height: 4rem;   /* esto sirve para  la separacio nde linea en linea siguiente*/
+}
+nav{
+background-color:black ;
+color:azure;
+
+}
+
+header{
+
+}
+h3{color:aliceblue;}
+p{color:azure;} 
+#merc{
+    color:blue;
+}
+#venus{
+    color:rgb(172, 116, 224);
+}
+img{
+    /*imagen con bordes */
+    border-radius: 10px;
+    /*imagens en miniatura*/
+    border:4px solid; color:red;
+    /*espacio entre el marco y la imagen*/
+    padding:5px;
+    /*tamaño de la image*/
+    width: 150px;
+    /*responsive de una imagen*/
+    max-width: 100%;
+    height:auto ;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 40%;
+    /*para imagen transparente*/
+    opacity:0,7;
+    /*filtro para blanco y negro*/
+    filter: grayscale(60%);
+    /*para desenfocar la imagen*/
+    filter:blur()
+
+}
+nav{
+    background-color:rgb(190, 144, 233);
+}
+ul{
+    list-style-type: none;
+    background-color:blue;
+    width: 200px;
+    border:2px solid black;
+    text-align: center;
+    overflow: hidden;
+}
+    
+li a {
+    display:block;
+    width: 60px;
+    /*para quitar el subrayado*/
+    text-decoration: none;
+    color:azure;
+    padding: 8px 16px;
+    border-bottom:1px solid black ;
+    display:inline;
+}
+li a:hover{
+    /*pseudocodigo que cambie al pasar el mouse cambie de color y letra */
+    
+    background-color:orange;
+    color:azure;
+}
+
+
+foter{ 
+    
+background-color:black;
+color:rgb(158, 103, 21);
+
+
+
+
+}
